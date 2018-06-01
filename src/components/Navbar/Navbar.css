@@ -1,0 +1,45 @@
+.Navbar {
+   width: 100%;
+   height: 33px;
+   background-color: #607d8b;
+   color: #fafafa;
+   
+}
+
+.Name {
+   width: 30%;
+   height: inherit;
+   margin: auto;
+   line-height: 33px;
+   
+   color: #fafafa;
+   text-align: center;
+   font-weight: bold;
+   float: left;
+}
+
+.Blog {
+   width: 35%;
+   height: inherit;
+   float: right;
+   line-height: 33px;
+   text-align: right;
+}
+
+.Blog a {
+   margin-right: 50px;
+   transition-duration: 0.3s;
+   transition-property: margin-right, color;
+}
+
+@media (max-width: 400px) {
+   .Blog a {
+      margin-right: 10px;   
+   }
+}
+
+@media (max-width: 300px) {
+   .Name {
+      visibility: hidden;
+   }
+}
