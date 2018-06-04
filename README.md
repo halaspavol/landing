@@ -1,8 +1,8 @@
-#My landing page
+# My landing page
 This is my personal webpage. The page is still under development
 
-##Installing
+## Installing
 ´npm install´
 
-##Running
+## Running
 ´npm start´ 
