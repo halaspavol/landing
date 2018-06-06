@@ -6,8 +6,10 @@ a {
    font-weight: bold;
    transition-duration: 0.3s;
    transition-property: color;
+
+
 }
 
 a:hover {
-   color: #212121
+   color: #bada55;
 }
